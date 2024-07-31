@@ -42,14 +42,14 @@ sections:
     icon: far fa-hands-helping
 - name: Servers    
   items:
-    - title: Mediatux
-      description: Primer servidor del cluster
-      url: https://192.168.0.11:8006/
-      target: newtab
-      icon: hl-proxmox
-    - title: Mediatux1
-      description: Segundo servidor del cluster
-      url: https://192.168.0.210:8006/
-      target: newtab
-      icon: hl-proxmox
+  - title: Mediatux
+    description: Primer servidor del cluster
+    url: https://192.168.0.11:8006/
+    target: newtab
+    icon: hl-proxmox
+  - title: Mediatux1
+    description: Segundo servidor del cluster
+    url: https://192.168.0.210:8006/
+    target: newtab
+    icon: hl-proxmox
   
