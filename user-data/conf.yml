@@ -40,19 +40,16 @@ sections:
     description: Get help with Dashy, raise a bug, or get in contact
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
-- name: Servers
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - &ref_5
-        title: Mediatux1
-        url: https://192.168.0.11:8006/
-        target: newtab
-        id: 0_746_mediatux
-    filteredItems:
-      - *ref_5
+- name: Servers    
+  items:
+    - title: Mediatux
+      description: Primer servidor del cluster
+      url: https://192.168.0.11:8006/
+      target: newtab
+      icon: hl-proxmox
+    - title: Mediatux1
+      description: Segundo servidor del cluster
+      url: https://192.168.0.210:8006/
+      target: newtab
+      icon: hl-proxmox
   
