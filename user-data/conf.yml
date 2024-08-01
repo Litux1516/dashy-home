@@ -46,10 +46,10 @@ sections:
     description: Primer servidor del cluster
     url: https://192.168.0.11:8006/
     target: newtab
-    icon: hl-proxmox
+#    icon: hl-proxmox
   - title: Mediatux1
     description: Segundo servidor del cluster
     url: https://192.168.0.210:8006/
     target: newtab
-    icon: hl-proxmox
+#    icon: hl-proxmox
   
